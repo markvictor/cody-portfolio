@@ -5,9 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c207e9-4bc0-4264-8bc4-9c7ea2d7f47c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/(site)/blog/[slug]/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(site)/blog/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(site)/components/blog-post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(site)/components/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(site)/components/portableText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(site)/components/portfolio-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(site)/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(site)/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(site)/portfolio/[slug]/loading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(site)/portfolio/[slug]/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(site)/portfolio/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(studio)/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(studio)/studio/[[...index]]/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/arrow-up-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon-blog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/icon_club.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/icon_diamond.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/icon_heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/icon_spade.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanity-studio/schemaTypes/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sanity.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio/[[...index]]/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemaTypes/blockContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemaTypes/blogType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemaTypes/contentSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemaTypes/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemaTypes/projectType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemaTypes/tagType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemaTypes/wrapTextAroundImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -26,9 +61,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.2.0/bin/php" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2wYo0fXtxXWGBfhp4OoQV8VQoKX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,21 +74,29 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/admin/Sites/cody-portfolio",
+    "last_opened_file_path": "/Users/admin/Sites/cody-portfolio/app/portfolio/[slug]",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/admin/Sites/cody-portfolio/sanity-studio/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/portfolio/[slug]" />
+      <recent name="$PROJECT_DIR$/app/portfolio" />
+      <recent name="$PROJECT_DIR$/sanity-studio" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/icons" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/(site)" />
+      <recent name="$PROJECT_DIR$/app/(studio)" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,6 +108,9 @@
       <option name="presentableId" value="Default" />
       <updated>1746227646430</updated>
       <workItem from="1746227647570" duration="1975000" />
+      <workItem from="1746230665177" duration="5530000" />
+      <workItem from="1747073458913" duration="8711000" />
+      <workItem from="1748979204586" duration="76967000" />
     </task>
     <servers />
   </component>

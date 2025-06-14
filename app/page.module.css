@@ -1,4 +1,4 @@
-.page {
+.page, .portfolio {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
@@ -11,13 +11,19 @@
   align-items: center;
   justify-items: center;
   min-height: 100svh;
+  /*gap: 10px;*/
+  font-family: var(--font-inter);
+}
+
+.page {
   padding: 80px;
-  gap: 64px;
-  font-family: var(--font-geist-sans);
+}
+
+.portfolio {
 }
 
 @media (prefers-color-scheme: dark) {
-  .page {
+  .page, .portfolio {
     --gray-rgb: 255, 255, 255;
     --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
     --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
@@ -32,20 +38,18 @@
   flex-direction: column;
   gap: 32px;
   grid-row-start: 2;
+  max-width: 1800px;
+  margin: 0 auto;
 }
 
 .main ol {
-  font-family: var(--font-geist-mono);
+  font-family: var(--font-inter-tight);
   padding-left: 0;
   margin: 0;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: -0.01em;
   list-style-position: inside;
-}
-
-.main li:not(:last-of-type) {
-  margin-bottom: 8px;
 }
 
 .main code {
