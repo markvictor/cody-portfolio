@@ -22,7 +22,7 @@ export default async function Portfolio({ params }) {
                         {project.tags?.length > 0 &&
                         <div className="tags flex items-center justify-center gap-4">
                             {project.tags.map(tag => (
-                                <div key={tag.label} className="bg-red-500 font-bold py-1 px-4 rounded-full inline-block mb-12">{tag.label}</div>
+                                <div key={tag.label} className="bg-main-color text-default-color font-bold py-1 px-4 rounded-full inline-block mb-12">{tag.label}</div>
                             ))}
                         </div>
                         }

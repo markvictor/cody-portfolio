@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-accent-color: #F6C62A;
+  --primary-text-color: #2B2B2B;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,42 +39,8 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
-h1, h2 {
-  font-size: 72px;
-  font-weight: bold;
-  line-height: 110%;
-  letter-spacing: 0;
-}
-
-h3 {
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 110%;
-  letter-spacing: 0;
-}
-
-h4, h5 {
-  line-height: 110%;
-  font-size: 36px;
-}
-
-h5, h6 {
-  line-height: 110%;
-  font-weight: bold;
-}
-
-.portfolio-item {
-  transition: 0.5s;
-}
-
-a:hover > .portfolio-item {
-  opacity: 0.8;
+.dark-video {
+  display: none;
 }
 
 /* menu */
@@ -124,6 +92,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-menu {
   background: #fff;
   padding: 2.5em 1.5em 0;
+  overflow: hidden!important;
+  box-sizing: border-box;
   /*font-size: 1.15em;*/
 }
 
@@ -146,4 +116,69 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  .dark-video {
+    display: block;
+  }
+
+  .light-video {
+    display: none;
+  }
+
+  .nav-svg {
+    filter: invert(100%);
+  }
+  .bm-menu {
+    background: var(--background);
+  }
+  .bm-burger-bars, .bm-cross {
+    background: var(--foreground);
+  }
+
+  .bm-menu a {
+    color: var(--foreground);
+  }
+
+}
+
+h1, h2 {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 110%;
+  letter-spacing: 0;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 110%;
+  letter-spacing: 0;
+}
+
+h4, h5 {
+  line-height: 110%;
+  font-size: 36px;
+}
+
+h5, h6 {
+  line-height: 110%;
+  font-weight: bold;
+}
+
+.bg-main-color {
+  background-color: var(--primary-accent-color);
+}
+
+.text-main-color {
+  color: var(--primary-accent-color);
+}
+
+.text-default-color {
+  color: var(--primary-text-color);
 }

@@ -32,7 +32,7 @@ export function Navbar() {
                                href="mailto:hello@codygall.com">Contact</a>
                             <a id="linkedin-mobile" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 menu-item"
                                href="https://www.linkedin.com/in/codygall/" target="_blank">
-                                <Image src="/linkedin.svg" alt="Logo" width={25} height={25} />
+                                <Image className="nav-svg" src="/icons/linkedin.svg" alt="Logo" width={25} height={25} />
                             </a>
                         </div>
                     </div>
@@ -64,9 +64,9 @@ export function Navbar() {
                 <span className="sr-only">Toggle menu</span>
             </div>
             <nav
-                className="w-full mx-auto p-6 sm:flex sm:items-center sm:justify-between max-w-7xl">
+                className="w-full mx-auto p-6 sm:flex sm:items-center sm:justify-between max-w-[1800px]">
                 <div className="flex items-center justify-between">
-                    <Link className="flex-none text-xl font-semibold dark:text-white focus:outline-hidden focus:opacity-80"
+                    <Link className="flex-none text-xl font-semibold dark:text-white focus:outline-hidden duration-700 ease-in-out focus:opacity-80"
                           href={'/'} aria-label="Home">
                         Cody Gall
                     </Link>
@@ -84,7 +84,7 @@ export function Navbar() {
                            href="mailto:hello@codygall.com">Contact</a>
                         <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
                            href="https://www.linkedin.com/in/codygall/" target="_blank">
-                            <Image src="/linkedin.svg" alt="Logo" width={25} height={25} />
+                            <Image className="nav-svg" src="/icons/linkedin.svg" alt="Logo" width={25} height={25} />
                         </a>
                     </div>
                 </div>

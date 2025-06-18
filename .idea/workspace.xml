@@ -5,46 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c207e9-4bc0-4264-8bc4-9c7ea2d7f47c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(site)/blog/[slug]/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(site)/blog/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(site)/components/blog-post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(site)/components/navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(site)/components/portableText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(site)/components/portfolio-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(site)/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(site)/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(site)/portfolio/[slug]/loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(site)/portfolio/[slug]/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(site)/portfolio/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(studio)/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(studio)/studio/[[...index]]/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/arrow-up-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon-blog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/icon_club.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/icon_diamond.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/icon_heart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/icon_spade.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity-studio/schemaTypes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/blockContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/blogType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/contentSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/projectType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/tagType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemaTypes/wrapTextAroundImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(site)/components/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/(site)/components/blog-post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(site)/components/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/(site)/components/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(site)/components/portableText.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/(site)/components/portableText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(site)/components/portfolio-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/(site)/components/portfolio-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(site)/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/(site)/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(site)/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/(site)/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(site)/portfolio/[slug]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/(site)/portfolio/[slug]/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/arrow-up-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon-blog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/linkedin.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +84,7 @@
       <workItem from="1746227647570" duration="1975000" />
       <workItem from="1746230665177" duration="5530000" />
       <workItem from="1747073458913" duration="8711000" />
-      <workItem from="1748979204586" duration="76967000" />
+      <workItem from="1748979204586" duration="88091000" />
     </task>
     <servers />
   </component>

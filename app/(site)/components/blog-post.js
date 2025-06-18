@@ -13,13 +13,13 @@ export function BlogPost({post}) {
             </section>
             <section className="grid grid-cols-2 gap-4">
                 <div className="font-bold">
-                    <Image className="mr-4 inline-block" src="/icon-blog.png" alt="Logo" width={48} height={48} />
+                    <Image className="mr-4 inline-block" src="/icons/icon-blog.png" alt="Logo" width={48} height={48} />
                     {post.author}
                 </div>
                 <div className="text-sm text-right">
                     {post.tags.map(tag => (
                         <div key={tag.label}
-                             className="bg-red-500 font-bold py-1 px-2 rounded-full inline-block mb-12">{tag.label}</div>
+                             className="bg-main-color text-default-color font-bold py-1 px-2 rounded-full inline-block mb-12">{tag.label}</div>
                     ))}
                 </div>
             </section>

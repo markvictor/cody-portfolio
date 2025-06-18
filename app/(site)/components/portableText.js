@@ -12,6 +12,27 @@ import { Fraction } from 'fraction.js';
 // import { SanityImage } from './SanityImage';
 
 export function PortableTextCustom({ value }) {
+    const widthClassMap = {
+        10: 'sm:w-[10%]',
+        15: 'sm:w-[15%]',
+        20: 'sm:w-[20%]',
+        25: 'sm:w-[25%]',
+        30: 'sm:w-[30%]',
+        35: 'sm:w-[35%]',
+        40: 'sm:w-[40%]',
+        45: 'sm:w-[45%]',
+        50: 'sm:w-[50%]',
+        55: 'sm:w-[55%]',
+        60: 'sm:w-[60%]',
+        65: 'sm:w-[65%]',
+        70: 'sm:w-[70%]',
+        75: 'sm:w-[75%]',
+        80: 'sm:w-[80%]',
+        85: 'sm:w-[85%]',
+        90: 'sm:w-[90%]',
+        95: 'sm:w-[95%]',
+    };
+
     const components = {
         types: {
             wrapTextAroundImage: ({value}) => {
@@ -19,12 +40,13 @@ export function PortableTextCustom({ value }) {
                 const floatClass = 'left'
                     ? 'float-left mr-6'
                     : 'float-right ml-6';
+                const widthClass = widthClassMap[width] || 'w-full'; // fallback to full width
 
                 return (
                     <>
                         <div className="clear-both py-12">
                             <figure
-                                className={floatClass + ' relative mb-4 sm:w-'+new Fraction(width/100).toFraction()}
+                                className={floatClass + ` relative mb-4 ${widthClass}`}
                                 // style={{width: `${width}%`}}
                             >
                                 <img src={imageUrl} alt={imageAlt}/>
@@ -52,6 +74,8 @@ export function PortableTextCustom({ value }) {
                 const rightImageUrl = value.rightImageUrl;
                 const leftWidth = value.leftWidth || 50;
                 const rightWidth = 100 - leftWidth;
+                const leftWidthClass = widthClassMap[leftWidth] || 'w-full'; // fallback to full width
+                const rightWidthClass = widthClassMap[rightWidth] || 'w-full'; // fallback to full width
 
                 if (!leftImageUrl && !rightImageUrl) return null;
 
@@ -62,7 +86,7 @@ export function PortableTextCustom({ value }) {
                                 src={leftImageUrl}
                                 alt="Left side image"
                                 // style={{ width: `${leftWidth}%` }}
-                                className={'object-cover h-auto sm:w-'+new Fraction(leftWidth/100).toFraction()}
+                                className={`object-cover h-auto ${leftWidthClass}`}
                             />
                         )}
                         {rightImageUrl && (
@@ -70,7 +94,7 @@ export function PortableTextCustom({ value }) {
                                 src={rightImageUrl}
                                 alt="Right side image"
                                 // style={{ width: `${rightWidth}%` }}
-                                className={'object-cover h-auto sm:w-'+new Fraction(rightWidth/100).toFraction()}
+                                className={`object-cover h-auto ${rightWidthClass}`}
                             />
                         )}
                     </div>
@@ -78,7 +102,7 @@ export function PortableTextCustom({ value }) {
             },
             quote: ({ value }) => (
                 <blockquote className="text-center my-24 max-w-[1024px] mx-auto ">
-                    <p className="text-7xl text-[#F24F2D] font-semibold">{value.text}</p>
+                    <p className="text-7xl text-main-color font-semibold">{value.text}</p>
                     {value.author && (
                         <footer className="mt-4">{value.author}</footer>
                     )}

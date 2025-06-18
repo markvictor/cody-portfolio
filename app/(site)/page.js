@@ -15,15 +15,17 @@ export default async function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
           <header className="grid grid-cols-1 gap-12 md:grid-cols-3 place-items-center py-12">
-              <div className="md:justify-self-end"><Image
-                  width="330"
-                  height="260"
-                  // sizes="100vw"
-                  className="float-right"
-                  src="https://placehold.co/330x360.png"  alt="Hello! I'm Cody"/></div>
-              <div className="md:col-span-2">
-                  <h1 className="mb-4">A full-deck designer - built for brands in motion</h1>
-                  <h4>Hello! — I'm Cody, an agile brand + motion designer hopping across digital and physical worlds.</h4>
+              <div className="md:justify-self-end">
+                  <video className="dark-video" width={350} height={350} autoPlay loop muted playsInline>
+                      <source src="videos/cat_top_black.mp4" type="video/mp4" />
+                  </video>
+                  <video className="light-video" width={350} height={350} autoPlay loop muted playsInline>
+                      <source src="videos/cat_top_white.mp4" type="video/mp4" />
+                  </video>
+              </div>
+              <div className="md:col-span-2 md:justify-self-start">
+                  <h1 className="mb-4">A full-deck designer - <br className="hidden 2xl:inline" />built for brands in motion</h1>
+                  <h4>Hello! — I'm Cody, an agile brand + motion <br className="hidden 2xl:inline" />designer hopping across digital and physical worlds.</h4>
               </div>
           </header>
           <section className="border-t-1 border-gray-300 py-12">
@@ -31,9 +33,9 @@ export default async function Home() {
               {profile.projects?.map((proj, i) =>
                 <PortfolioItem key={i} project={proj} />
               )}
-              <Link href="/portfolio" className="bg-red-500 hover:bg-red-700 text-white font-bold py-4 px-4 rounded block text-center">View all projects</Link>
+              <Link href="/portfolio" className="bg-main-color duration-700 ease-in-out hover:opacity-80 text-default-color font-bold py-4 px-4 rounded block text-center">View all projects</Link>
           </section>
-          <section id="about" className="grid grid-cols-1 gap-4 md:grid-cols-2 border-t-1 border-gray-300 py-12 place-items-center">
+          <section id="about" className="grid grid-cols-1 gap-12 md:grid-cols-2 border-t-1 border-gray-300 py-12 place-items-center">
               <div>
                   <Image width={profile.profileImage.asset.metadata.dimensions.width}
                          height={profile.profileImage.asset.metadata.dimensions.height}
@@ -42,7 +44,7 @@ export default async function Home() {
                          src={profile.profileImage.image}  alt="Hello! I'm Cody"/>
               </div>
               <div>
-                  <div className="bg-red-500 font-bold py-1 px-4 rounded-full inline-block mb-12">About</div>
+                  <div className="bg-main-color font-bold text-default-color py-1 px-4 rounded-full inline-block mb-12">About</div>
                   <h2 className="mb-12">Hello! I'm Cody</h2>
                   <h4 className="mb-12">a brand + motion designer located in San Francisco, CA</h4>
                   <div className="mb-12">
@@ -50,12 +52,12 @@ export default async function Home() {
                       <p><br /></p>
                       <p>As a brand designer, I’ve managed campaigns from concept to execution across print and digital platforms, delivering creative solutions that resonate with audiences and align with strategic goals. My work emphasizes cohesive storytelling and collaboration.</p>
                   </div>
-                  <a href="/resume.pdf" target="_blank" className="bg-red-500 hover:bg-red-700 text-white font-bold py-4 px-6 rounded">View my resume</a>
+                  <a href="/resume.pdf" target="_blank" className="bg-main-color duration-700 ease-in-out hover:opacity-80 text-default-color font-bold py-4 px-6 rounded">View my resume</a>
               </div>
           </section>
-          <section className="grid grid-cols-1 gap-4 md:grid-cols-2 border-t-1 border-gray-300 py-12">
+          <section className="grid grid-cols-1 gap-12 md:grid-cols-2 border-t-1 border-gray-300 py-12">
               <h3>What I do</h3>
-              <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+              <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
                   <div>
                       <h6 className="pb-4">
                           <Image className="inline-block mr-1" src="icons/icon_spade.svg" alt="Logo" width={14} height={14} />
@@ -106,7 +108,7 @@ export default async function Home() {
                   </div>
               </div>
           </section>
-          <section className="grid grid-cols-1 gap-4 md:grid-cols-2 border-t-1 border-gray-300 py-12">
+          <section className="grid grid-cols-1 gap-12 md:grid-cols-2 border-t-1 border-gray-300 py-12">
               <h3>Experiences</h3>
               <div>
                   <div className="exerience border-b-1 border-gray-300 grid grid-cols-1 gap-4 md:grid-cols-2 py-4">
