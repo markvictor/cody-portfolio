@@ -25,7 +25,7 @@ export default async function Home() {
               </div>
               <div className="md:col-span-2 md:justify-self-start">
                   <h1 className="mb-4">A full-deck designer - <br className="hidden 2xl:inline" />built for brands in motion</h1>
-                  <h4>Hello! — I'm Cody, an agile brand + motion <br className="hidden 2xl:inline" />designer hopping across digital and physical worlds.</h4>
+                  <h4>Hello! — I&apos;m Cody, an agile brand + motion <br className="hidden 2xl:inline" />designer hopping across digital and physical worlds.</h4>
               </div>
           </header>
           <section className="border-t-1 border-gray-300 py-12">
@@ -45,7 +45,7 @@ export default async function Home() {
               </div>
               <div>
                   <div className="bg-main-color font-bold text-default-color py-1 px-4 rounded-full inline-block mb-12">About</div>
-                  <h2 className="mb-12">Hello! I'm Cody</h2>
+                  <h2 className="mb-12">Hello! I&apos;m Cody</h2>
                   <h4 className="mb-12">a brand + motion designer located in San Francisco, CA</h4>
                   <div className="mb-12">
                       <p>I bring over 10 years of experience across startups, agencies, and in-house roles, specializing in building design systems, creating meaningful motion graphics, and crafting impactful brand identities for B2B and B2C clients.</p>

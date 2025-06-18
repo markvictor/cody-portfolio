@@ -20,20 +20,20 @@ export function Navbar() {
                 <Menu right pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } >
                     <div>
                         <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5 text-black">
-                            <a id="portfolio-mobile" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 menu-item"
-                               href="/portfolio">Portfolio</a>
-                            <a id="blog-mobile" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 menu-item"
-                               href="/blog">Blog</a>
-                            <a id="about-mobile" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 menu-item"
-                               href="/#about">About</a>
-                            <a id="resume-mobile" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 menu-item"
-                               href="/resume.pdf" target="_blank">Resume</a>
-                            <a id="contact-mobile" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 menu-item"
-                               href="mailto:hello@codygall.com">Contact</a>
-                            <a id="linkedin-mobile" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 menu-item"
+                            <Link id="portfolio-mobile" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 menu-item"
+                               href="/portfolio">Portfolio</Link>
+                            <Link id="blog-mobile" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 menu-item"
+                               href="/blog">Blog</Link>
+                            <Link id="about-mobile" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 menu-item"
+                               href="/#about">About</Link>
+                            <Link id="resume-mobile" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 menu-item"
+                               href="/resume.pdf" target="_blank">Resume</Link>
+                            <Link id="contact-mobile" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 menu-item"
+                               href="mailto:hello@codygall.com">Contact</Link>
+                            <Link id="linkedin-mobile" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 menu-item"
                                href="https://www.linkedin.com/in/codygall/" target="_blank">
                                 <Image className="nav-svg" src="/icons/linkedin.svg" alt="Logo" width={25} height={25} />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </Menu>
@@ -73,19 +73,19 @@ export function Navbar() {
                 </div>
                 <div className="w-full hidden sm:block md:w-auto">
                     <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-                        <a className="font-medium text-blue-500 focus:outline-hidden" href="/portfolio" aria-current="page">Portfolio</a>
-                        <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
-                           href="/blog" >Blog</a>
-                        <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
-                           href="/#about">About</a>
-                        <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
-                           href="/resume.pdf" target="_blank">Resume</a>
-                        <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
-                           href="mailto:hello@codygall.com">Contact</a>
-                        <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
+                        <Link className="font-medium text-blue-500 focus:outline-hidden" href="/portfolio" aria-current="page">Portfolio</Link>
+                        <Link className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
+                           href="/blog" >Blog</Link>
+                        <Link className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
+                           href="/#about">About</Link>
+                        <Link className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
+                           href="/resume.pdf" target="_blank">Resume</Link>
+                        <Link className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
+                           href="mailto:hello@codygall.com">Contact</Link>
+                        <Link className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
                            href="https://www.linkedin.com/in/codygall/" target="_blank">
                             <Image className="nav-svg" src="/icons/linkedin.svg" alt="Logo" width={25} height={25} />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </nav>

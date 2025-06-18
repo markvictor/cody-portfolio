@@ -1,4 +1,4 @@
-import {PortableTextCustom} from "@/app/(site)/components/portableText";
+import {PortableTextCustom} from "@/app/(site)/components/portable-text";
 import Link from "next/link";
 import dayjs from "dayjs";
 import Image from "next/image";
